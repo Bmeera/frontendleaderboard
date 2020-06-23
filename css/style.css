@@ -33,7 +33,28 @@ body {
 
 /* LEADERBOARD SECTION */
 .lboard_content {
-    padding: 2% 10%;
+    display: flex;  
+    align-items: center;    
+    justify-content: space-between; 
+    padding: 2% 10%; 
+}  
+.lboard_period {    
+    display: grid;  
+    justify-items: center;  
+}   
+.lboard_period li { 
+    margin-bottom: 20px;    
+    padding-bottom: 5px;    
+    text-transform: uppercase;  
+    cursor: pointer;    
+    list-style: none;   
+}   
+.lboard_period li:hover {   
+    color: #F6AF37; 
+    border-bottom: 2px solid #F6AF37;   
+}   
+.period--active {   
+    border-bottom: 2px solid #F6AF37;   
 }
 .lboard_main {
     background: rgba(184, 200, 218, 0.2);
